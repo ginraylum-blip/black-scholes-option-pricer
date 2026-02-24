@@ -194,3 +194,8 @@ im2 = plot_heatmap(ax2, put_matrix, "Put Price Heatmap", "RdYlGn")
 fig.colorbar(im2, ax=ax2, label="Put Price")
 
 st.pyplot(fig)
+page_title="Lum-Ashton | Black-Scholes Option Pricer",
+    page_icon="📈",
+    layout="wide"
+
+st.write("done by Ashton Lum https://www.linkedin.com/in/lum-ashton/")
